@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomee>
+    <Resource id="jdbc/payments_datasource" type="javax.sql.DataSource">
+        JdbcDriver = org.postgresql.Driver
+        JdbcUrl = URL_SECRET
+        UserName = postgres
+        Password = PASS_SECRET
+        jtaManaged = true
+    </Resource>
+</tomee>
